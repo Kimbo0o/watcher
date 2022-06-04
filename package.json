@@ -7,9 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@vueuse/core": "^8.6.0",
     "@vueuse/nuxt": "^8.6.0",
+    "eslint": "^8.17.0",
     "nuxt": "3.0.0-rc.3"
   }
 }
