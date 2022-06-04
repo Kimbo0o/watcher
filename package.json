@@ -13,5 +13,8 @@
     "@vueuse/nuxt": "^8.6.0",
     "eslint": "^8.17.0",
     "nuxt": "3.0.0-rc.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.9"
   }
 }
