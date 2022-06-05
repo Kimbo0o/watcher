@@ -8,4 +8,11 @@ export default defineNuxtConfig({
     "@nuxtjs/eslint-module",
     ["@pinia/nuxt", { disableVuex: true }],
   ],
+  //   plugins: ["~/plugins/firebase.js"],
+  publicRuntimeConfig: {
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+  },
+  privateRuntimeConfig: {
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+  },
 });

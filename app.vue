@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <NuxtWelcome /> -->
-    <span class="border rounded-full p-4">test</span>
-    <MouseTest></MouseTest>
+    <NuxtLayout>
+      <NuxtPage></NuxtPage>
+    </NuxtLayout>
   </div>
 </template>
